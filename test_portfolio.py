@@ -13,6 +13,4 @@ def test_buy_two_stocks():
 
 def test_empty():
     p = Portfolio()
-    p.buy("IBM", 0, 0)
-    p.buy("HPQ", 0, 0)
     assert p.cost() == 0

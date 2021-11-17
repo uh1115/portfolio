@@ -14,6 +14,8 @@ Consider that to implement the cost method, you'll need to be storing the purcha
 """
 
 """
+def __init__(self,name,shares,price,somename=[]):
+    self.name = str(name)
     self.shares = int(shares)
     self.price = float(price)
     self.somename = somename
